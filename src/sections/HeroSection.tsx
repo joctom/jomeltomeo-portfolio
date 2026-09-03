@@ -122,7 +122,7 @@ export default function HeroSection() {
 
       <div className="section-container relative z-10 max-w-4xl pt-32 pb-28 lg:pt-40">
         <motion.h1
-          className="display-heading mt-6 text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem]"
+          className="display-heading text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem]"
           initial={{ opacity: 0 }}
           animate={introComplete ? { opacity: 1 } : {}}
           transition={transition(DURATION.base, EASE.out, 0.15)}
