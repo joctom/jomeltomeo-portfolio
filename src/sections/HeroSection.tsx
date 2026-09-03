@@ -121,16 +121,6 @@ export default function HeroSection() {
       <div className="hero-grid absolute inset-0" aria-hidden />
 
       <div className="section-container relative z-10 max-w-4xl pt-32 pb-28 lg:pt-40">
-        <motion.div
-          className="hero-badge"
-          initial={{ opacity: 0, x: -16 }}
-          animate={introComplete ? { opacity: 1, x: 0 } : {}}
-          transition={transition(DURATION.base, EASE.out, 0.1)}
-        >
-          <span className="hero-badge-dot" />
-          Available for freelance work
-        </motion.div>
-
         <motion.h1
           className="display-heading mt-6 text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem]"
           initial={{ opacity: 0 }}
