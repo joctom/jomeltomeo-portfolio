@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <defs>
+    <linearGradient id="lovable" x1="18" y1="8" x2="150" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4B73FF"/>
+      <stop offset="38%" stop-color="#FF66F4"/>
+      <stop offset="68%" stop-color="#FF0105"/>
+      <stop offset="100%" stop-color="#FE7B02"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#lovable)" fill-rule="evenodd" d="M54.605 0c29.334 0 53.114 23.842 53.114 53.254v20.239h17.676c29.334 0 53.113 23.843 53.113 53.254 0 29.411-23.78 53.253-53.113 53.253H1.492V53.254C1.492 23.842 25.271 0 54.605 0Z"/>
+</svg>

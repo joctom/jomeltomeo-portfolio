@@ -239,11 +239,11 @@ export const SKILL_GROUPS = [
     title: "Full-Stack Web Development",
     role: "Full-Stack Web Developer",
     summary:
-      "I ship responsive sites end to end — React on the front, Node or Django on the back, and MongoDB, PostgreSQL, or Supabase for data.",
+      "I ship responsive sites end to end — React on the front, Node or Django on the back, and MongoDB, PostgreSQL, Supabase, or Airtable for data.",
     focus: [
       "Product UI in React, TypeScript, and Tailwind",
       "APIs and server logic in Node, Express, or Django",
-      "Data in MongoDB, PostgreSQL, or Supabase",
+      "Data in MongoDB, PostgreSQL, Supabase, or Airtable",
     ],
     skills: [
       "HTML",
@@ -259,6 +259,7 @@ export const SKILL_GROUPS = [
       "MongoDB",
       "PostgreSQL",
       "Supabase",
+      "Airtable",
       "Postman",
     ],
     icon: "Terminal",
@@ -281,12 +282,13 @@ export const SKILL_GROUPS = [
     title: "AI & Automation",
     role: "Prompt Engineer / AI Practitioner",
     summary:
-      "I use prompt engineering with Claude, Cursor, and DALL-E to generate visuals, draft faster, and speed up development.",
+      "I use prompt engineering with Claude, Cursor, Lovable, and DALL-E to generate visuals, draft faster, and ship apps from prompts.",
     focus: [
       "AI-generated visuals with DALL-E",
       "Faster writing and coding with Claude and Cursor",
+      "App builds from prompts with Lovable",
     ],
-    skills: ["Prompt Engineering", "Claude AI", "Cursor AI", "DALL-E"],
+    skills: ["Prompt Engineering", "Claude AI", "Cursor AI", "Lovable", "DALL-E"],
     icon: "Brain",
     color: "from-violet-500 to-purple-600",
   },
