@@ -18,6 +18,7 @@ import {
   siSupabase,
   siTailwindcss,
   siTypescript,
+  siWordpress,
 } from "simple-icons";
 import adobeLogo from "../assets/skills/adobe.svg";
 import canvaLogo from "../assets/skills/canva.svg";
@@ -80,6 +81,7 @@ export const SKILL_VISUALS: Record<string, SkillVisual> = {
   PostgreSQL: fromSimple(siPostgresql),
   Supabase: fromSimple(siSupabase),
   Airtable: fromSimple(siAirtable),
+  WordPress: fromSimple(siWordpress),
   Postman: fromSimple(siPostman),
 };
 

@@ -239,9 +239,10 @@ export const SKILL_GROUPS = [
     title: "Full-Stack Web Development",
     role: "Full-Stack Web Developer",
     summary:
-      "I ship responsive sites end to end — React on the front, Node or Django on the back, and MongoDB, PostgreSQL, Supabase, or Airtable for data.",
+      "I ship responsive sites end to end — React or WordPress on the front, Node or Django on the back, and MongoDB, PostgreSQL, Supabase, or Airtable for data.",
     focus: [
       "Product UI in React, TypeScript, and Tailwind",
+      "WordPress sites when a CMS is the right fit",
       "APIs and server logic in Node, Express, or Django",
       "Data in MongoDB, PostgreSQL, Supabase, or Airtable",
     ],
@@ -256,6 +257,7 @@ export const SKILL_GROUPS = [
       "Node.js",
       "Express.js",
       "Django",
+      "WordPress",
       "MongoDB",
       "PostgreSQL",
       "Supabase",
