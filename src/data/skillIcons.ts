@@ -28,7 +28,7 @@ import n8nLogo from "../assets/skills/n8n.svg";
 import openaiLogo from "../assets/skills/openai.svg";
 import photoshopLogo from "../assets/skills/photoshop.svg";
 
-export type LucideSkillName = "Sparkles";
+export type LucideSkillName = "Sparkles" | "Globe" | "Webhook";
 
 export type SkillVisual =
   | { type: "simple"; icon: SimpleIcon; color: string; ink: boolean }
@@ -61,6 +61,8 @@ export const SKILL_VISUALS: Record<string, SkillVisual> = {
   "Cursor AI": fromSimple(siCursor),
   Lovable: fromImage(lovableLogo, "#FF66F4"),
   n8n: fromImage(n8nLogo, "#EA4B71"),
+  "REST API": { type: "lucide", name: "Globe", color: "#2563EB" },
+  Webhooks: { type: "lucide", name: "Webhook", color: "#EA4B71" },
   "ChatGPT Pro": fromImage(openaiLogo, "#10A37F"),
   "DALL-E": fromImage(openaiLogo, "#10A37F"),
   "Prompt Engineering": { type: "lucide", name: "Sparkles", color: "#800020" },

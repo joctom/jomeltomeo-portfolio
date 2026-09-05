@@ -1,11 +1,13 @@
 import { motion } from "framer-motion";
-import { Sparkles } from "lucide-react";
+import { Globe, Sparkles, Webhook } from "lucide-react";
 import type { CSSProperties } from "react";
 import { getSkillVisual, type LucideSkillName } from "../data/skillIcons";
 import { DURATION, EASE } from "../utils/motion";
 
 const lucideMap = {
   Sparkles,
+  Globe,
+  Webhook,
 } satisfies Record<LucideSkillName, typeof Sparkles>;
 
 function LucideMark({ name, color }: { name: LucideSkillName; color: string }) {
