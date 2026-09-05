@@ -284,13 +284,14 @@ export const SKILL_GROUPS = [
     title: "AI & Automation",
     role: "Prompt Engineer / AI Practitioner",
     summary:
-      "I use prompt engineering with Claude, Cursor, Lovable, and DALL-E to generate visuals, draft faster, and ship apps from prompts.",
+      "I use prompt engineering with Claude, Cursor, Lovable, and DALL-E to generate visuals, draft faster, and ship apps from prompts — plus n8n for automated workflows.",
     focus: [
       "AI-generated visuals with DALL-E",
       "Faster writing and coding with Claude and Cursor",
       "App builds from prompts with Lovable",
+      "Workflow automation with n8n",
     ],
-    skills: ["Prompt Engineering", "Claude AI", "Cursor AI", "Lovable", "DALL-E"],
+    skills: ["Prompt Engineering", "Claude AI", "Cursor AI", "Lovable", "DALL-E", "n8n"],
     icon: "Brain",
     color: "from-violet-500 to-purple-600",
   },

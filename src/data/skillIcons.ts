@@ -24,6 +24,7 @@ import adobeLogo from "../assets/skills/adobe.svg";
 import canvaLogo from "../assets/skills/canva.svg";
 import capcutLogo from "../assets/skills/capcut.svg";
 import lovableLogo from "../assets/skills/lovable.svg";
+import n8nLogo from "../assets/skills/n8n.svg";
 import openaiLogo from "../assets/skills/openai.svg";
 import photoshopLogo from "../assets/skills/photoshop.svg";
 
@@ -59,6 +60,7 @@ export const SKILL_VISUALS: Record<string, SkillVisual> = {
   "Claude AI": fromSimple(siClaude),
   "Cursor AI": fromSimple(siCursor),
   Lovable: fromImage(lovableLogo, "#FF66F4"),
+  n8n: fromImage(n8nLogo, "#EA4B71"),
   "ChatGPT Pro": fromImage(openaiLogo, "#10A37F"),
   "DALL-E": fromImage(openaiLogo, "#10A37F"),
   "Prompt Engineering": { type: "lucide", name: "Sparkles", color: "#800020" },
